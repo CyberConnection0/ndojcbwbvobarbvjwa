@@ -1,0 +1,60 @@
+/* Estilos CSS podem ser adicionados aqui */
+body {
+    background-image: 
+    url('https://images.pexels.com/photos/10866582/pexels-photo-10866582.jpeg');
+    background-size: 1400px;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#ffffff;
+    color: white;
+   }
+
+   header {
+    background-image: url('https://images.pexels.com/photos/2603464/pexels-photo-2603464.jpeg');
+    background-size: 1410px;
+    background-repeat: no-repeat;
+    background-color:aqua;
+    color:rgb(92, 43, 226);
+    padding: 10px 0;
+    text-align: center;
+   }
+   
+.chat-container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.chat-box {
+    height: 300px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#user-input {
+    width: 70%;
+    padding: 8px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 8px 16px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
