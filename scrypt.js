@@ -17,7 +17,14 @@ function respondToMessage(message) {
 
   // Example responses
   var responses = {
-     "quem e seu copiloto?": "miguem els (copiloto)",
+"quem e seu copiloto?": "miguem els (copiloto)",
+      "quem e seu copiloto ?": "miguem els (copiloto)",
+      "Quem e seu copiloto?": "miguem els (copiloto)",
+      "Quem é seu copiloto?": "miguem els (copiloto)",
+      "Quem e seu copiloto ?": "miguem els (copiloto)",
+      "Quem é seu copiloto ?": "miguem els (copiloto)",
+      "quem é seu copiloto?": "miguem els (copiloto)",
+      
       "quem criou voce?": "Sagaz_felipe (Programador)",
       "quem criou voce ?": "Sagaz_felipe (Programador)",
       "quem criou você?": "Sagaz_felipe (Programador)",
@@ -35,7 +42,12 @@ function respondToMessage(message) {
       "tudo bem ?": "Estou bem, obrigado por perguntar!",
       "Tudo bem?": "Estou bem, obrigado por perguntar!",
       "Tudo bem ?": "Estou bem, obrigado por perguntar!",
-      "qual é o seu nome?": "Meu nome é CyberBot. Como posso ajudá-lo?",
+      "qual é o seu nome?": "Meu nome é CyberBot criado por Sagaz_felipe(programador). Como posso ajudá-lo?",
+      "qual é o seu nome ?": "Meu nome é CyberBot criado por Sagaz_felipe(programador). Como posso ajudá-lo?",
+      "Qual é o seu nome?": "Meu nome é CyberBot criado por Sagaz_felipe(programador). Como posso ajudá-lo?",
+      "qual e o seu nome?": "Meu nome é CyberBot criado por Sagaz_felipe(programador). Como posso ajudá-lo?",
+      "qual e o seu nome ?": "Meu nome é CyberBot criado por Sagaz_felipe(programador). Como posso ajudá-lo?",
+      "Qual e o seu nome ?": "Meu nome é CyberBot criado por Sagaz_felipe(programador). Como posso ajudá-lo?",
       // Add more responses as needed
   };
 
