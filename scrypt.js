@@ -59,7 +59,7 @@ function respondToMessage(message) {
       chatBox.innerHTML += "<p><strong>ChatBot:</strong> " + response + "</p>";
   } else {
       // If no predefined response, provide a default response
-      chatBox.innerHTML += "<p><strong>ChatBot:</strong> Desculpe, não entendi. Posso ajudar com mais alguma coisa?</p>";
+      chatBox.innerHTML += "<p><strong>ChatBot:</strong> Eu não sei como responder a isso.</p>";
   }
 
   // Scroll to the bottom of the chat box
