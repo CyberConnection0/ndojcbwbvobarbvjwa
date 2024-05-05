@@ -17,7 +17,7 @@ function respondToMessage(message) {
 
   // Example responses
   var responses = {
-      "quem e seu copiloto?": "miguem els (copiloto)",
+     "quem e seu copiloto?": "miguem els (copiloto)",
       "quem criou voce?": "Sagaz_felipe (Programador)",
       "quem criou voce ?": "Sagaz_felipe (Programador)",
       "quem criou você?": "Sagaz_felipe (Programador)",
@@ -28,7 +28,14 @@ function respondToMessage(message) {
       "oi": "Olá! Como posso ajudar?",
       "Oi": "Olá! Como posso ajudar?",
       "como voce esta?": "Estou bem, obrigado por perguntar!",
-      "qual é o seu nome?": "Meu nome é ChatBot. Como posso ajudá-lo?",
+      "como voce esta ?": "Estou bem, obrigado por perguntar!",
+      "Como voce esta?": "Estou bem, obrigado por perguntar!",
+      "Como voce esta ?": "Estou bem, obrigado por perguntar!",
+      "tudo bem?": "Estou bem, obrigado por perguntar!",
+      "tudo bem ?": "Estou bem, obrigado por perguntar!",
+      "Tudo bem?": "Estou bem, obrigado por perguntar!",
+      "Tudo bem ?": "Estou bem, obrigado por perguntar!",
+      "qual é o seu nome?": "Meu nome é CyberBot. Como posso ajudá-lo?",
       // Add more responses as needed
   };
 
